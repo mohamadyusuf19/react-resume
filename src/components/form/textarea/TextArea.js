@@ -4,10 +4,11 @@ import "./textarea.css";
 const TextArea = ({ label, formikProps, formikKey }) => {
   const formInput = {
     border: "solid 1px #e6e7eb",
-    padding: "8px",
     borderRadius: "5px",
     marginTop: "8px",
-    width: "80vh"
+    width: "100%",
+    textIndent: "8px",
+    paddingTop: "8px"
   };
 
   if (formikProps.touched[formikKey] && formikProps.errors[formikKey]) {
@@ -15,7 +16,7 @@ const TextArea = ({ label, formikProps, formikKey }) => {
   }
 
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <p style={styles.label}>{label}</p>
       <textarea
         rows={4}

@@ -18,14 +18,6 @@ const Data = [
   {
     label: "Pekerjaan",
     key: "pekerjaan"
-  },
-  {
-    label: "Nomor Whatsapp",
-    key: "whatsapp"
-  },
-  {
-    label: "Email",
-    key: "email"
   }
 ];
 
@@ -65,14 +57,32 @@ const Personal = ({ onSubmitValues, redirect, onClickBack }) => {
             <p className="text-header-form">Personal Info</p>
             {Data.map((item, i) => {
               return (
-                <Input
-                  key={i}
-                  label={item.label}
-                  formikProps={formikProps}
-                  formikKey={item.key}
-                />
+                <div style={{ width: "80vh" }}>
+                  <Input
+                    key={i}
+                    label={item.label}
+                    formikProps={formikProps}
+                    formikKey={item.key}
+                  />
+                </div>
               );
             })}
+            <div style={{ display: "flex", width: "80vh" }}>
+              <div style={{ marginRight: 20, width: "100%" }}>
+                <Input
+                  label="Nomor Handphone"
+                  formikProps={formikProps}
+                  formikKey="whatsapp"
+                />
+              </div>
+              <div style={{ width: "100%" }}>
+                <Input
+                  label="Email"
+                  formikProps={formikProps}
+                  formikKey="email"
+                />
+              </div>
+            </div>
             {MoreData.map((item, i) => {
               return (
                 <TextArea

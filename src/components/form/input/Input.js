@@ -4,11 +4,11 @@ import "./input.css";
 const Input = ({ label, formikProps, formikKey }) => {
   const formInput = {
     border: "solid 1px #e6e7eb",
-    height: "20px",
-    padding: "8px",
+    height: "40px",
     borderRadius: "5px",
     marginTop: "8px",
-    width: "80vh"
+    width: "100%",
+    textIndent: "8px"
   };
 
   if (formikProps.touched[formikKey] && formikProps.errors[formikKey]) {
@@ -16,7 +16,7 @@ const Input = ({ label, formikProps, formikKey }) => {
   }
 
   return (
-    <div>
+    <div style={{ width: "100%" }}>
       <p style={styles.label}>{label}</p>
       <input
         type="text"

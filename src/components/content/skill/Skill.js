@@ -39,12 +39,14 @@ const Skill = ({ onSubmitValues, redirect, onClickBack }) => {
             <p className="text-header-form">Ketrampilan</p>
             {Data.map((item, i) => {
               return (
-                <Input
-                  key={i}
-                  label={item.label}
-                  formikProps={formikProps}
-                  formikKey={item.key}
-                />
+                <div style={{ width: "80vh" }}>
+                  <Input
+                    key={i}
+                    label={item.label}
+                    formikProps={formikProps}
+                    formikKey={item.key}
+                  />
+                </div>
               );
             })}
             <div className="separate-button">

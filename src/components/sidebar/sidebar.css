@@ -11,7 +11,7 @@
 .sidebar-navbar {
   text-decoration: none;
   margin-bottom: 30px;
-  display: block;
+  display: flex;
   color: #000;
   cursor: pointer;
 }
@@ -27,4 +27,12 @@
 .line {
   border: solid 3px #000;
   margin-bottom: 30px;
+}
+
+.sidebar-navbar:hover {
+  color: #31a9f7;
+}
+
+.navbar-icon {
+  margin-right: 10px;
 }
