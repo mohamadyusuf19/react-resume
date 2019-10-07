@@ -1,0 +1,13 @@
+.avatar-preview {
+  height: 200px;
+  width: 200px;
+  border-radius: 50px;
+}
+
+.logo-preview {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 30px;
+  background: transparent;
+}

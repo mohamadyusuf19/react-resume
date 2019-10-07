@@ -1,0 +1,44 @@
+.title-name {
+  font-size: 20px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.text-job {
+  font-size: 18px;
+  font-weight: 500;
+  color: #000;
+  margin-bottom: 10px;
+}
+
+.text-description {
+  font-size: 16px;
+  font-weight: 300;
+  color: #000;
+  margin-bottom: 22px;
+  display: block;
+}
+
+.text-title-field {
+  font-size: 16px;
+  font-weight: bold;
+  color: #000;
+  margin-bottom: 8px;
+  margin-right: 8px;
+}
+
+.preview-flex {
+  display: flex;
+}
+
+.left-position {
+  width: 30%;
+  margin-right: 30px;
+  /* background: aqua; */
+}
+
+.right-position {
+  width: 70%;
+  /* background: green; */
+}

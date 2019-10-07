@@ -1,0 +1,30 @@
+.sidebar-nav {
+  width: 350px;
+  padding: 10px;
+  background: #fff;
+  border-right: solid 1px #c7c7c7;
+  display: block;
+  height: 100vh;
+  position: fixed;
+}
+
+.sidebar-navbar {
+  text-decoration: none;
+  margin-bottom: 30px;
+  display: block;
+  color: #000;
+  cursor: pointer;
+}
+
+.sidebar-text {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  padding: 5px;
+  align-items: center;
+}
+
+.line {
+  border: solid 3px #000;
+  margin-bottom: 30px;
+}

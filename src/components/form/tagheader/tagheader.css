@@ -1,0 +1,13 @@
+.sidebar-text-tag {
+  font-size: 20px;
+  color: #000;
+  font-weight: bold;
+  padding: 5px;
+  align-items: center;
+  margin-top: 30px;
+}
+
+.line-tag {
+  border: solid 1.5px #000;
+  margin-bottom: 30px;
+}

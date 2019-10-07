@@ -1,0 +1,18 @@
+.content-wrapper {
+  margin-left: 370px;
+  padding: 50px;
+}
+
+.text-header-form {
+  font-size: 30px;
+  font-weight: 700px;
+  margin-bottom: 30px;
+  text-align: center;
+  color: #555756;
+}
+
+.separate-button {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
