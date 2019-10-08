@@ -1,5 +1,18 @@
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+### DEMO .
+
+[https://react-cv.netlify.com/](https://react-cv.netlify.com/)
+
+#### Tech Stack
+
+- formik for handle form
+- yup for validation
+- html2canvas for convert html and css element to image
+- jspdf for convert js to pdf
+- react-icons for display icons
+- redux for state management
+
 ## Available Scripts
 
 In the project directory, you can run:

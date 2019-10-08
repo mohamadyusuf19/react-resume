@@ -73,7 +73,6 @@ const Sidebar = ({ id }) => {
                 const a4HeightMm = 297;
                 html2canvas(input).then(canvas => {
                   const imgData = canvas.toDataURL("image/png");
-
                   // Document of a4WidthMm wide and inputHeightMm high
                   if (inputHeightMm > a4HeightMm) {
                     // elongated a4 (system print dialog will handle page breaks)

@@ -15,19 +15,21 @@ import HeaderPreview from "./headerpreview/HeaderPreview";
 
 const Preview = props => {
   return (
-    <Card id="print-preview">
-      <HeaderPreview {...props} />
-      <div className="preview-flex">
-        <div className="left-position">
-          <Personal {...props} icon={<FaUserCircle />} />
-          <Skill {...props} icon={<FaPuzzlePiece />} />
+    <div style={{ border: "solid 1px rgba(0, 0, 0, 0.16)" }}>
+      <Card id="print-preview">
+        <HeaderPreview {...props} />
+        <div className="preview-flex">
+          <div className="left-position">
+            <Personal {...props} icon={<FaUserCircle />} />
+            <Skill {...props} icon={<FaPuzzlePiece />} />
+          </div>
+          <div className="right-position">
+            <Education {...props} icon={<FaGraduationCap />} />
+            <Experience {...props} icon={<FaBriefcase />} />
+          </div>
         </div>
-        <div className="right-position">
-          <Education {...props} icon={<FaGraduationCap />} />
-          <Experience {...props} icon={<FaBriefcase />} />
-        </div>
-      </div>
-    </Card>
+      </Card>
+    </div>
   );
 };
 
